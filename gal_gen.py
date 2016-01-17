@@ -1,17 +1,21 @@
 
 
 
-x=-1
-b=3
-fr = open('gal.txt','r')
-for line in fr:
-    print line
-    if x<line:
-        x=x+1
-        a = line
-    
 
 
 
-print a
-print x
+
+
+
+
+def sys_gen(x):
+    fr = open('gal.txt')
+
+    lines=fr.readlines()
+    x = lines[x]
+    print x
+    fr.close()
+
+sys_gen(3)
+
+print 
