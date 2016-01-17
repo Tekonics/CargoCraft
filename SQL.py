@@ -1,9 +1,9 @@
 import MySQLdb
 
 
-db = MySQLdb.connect(host="me-corp.ga",
+db = MySQLdb.connect(host="vps.untamemadman.pw",
                      user="me-corp_Game",
-                     passwd="ter3Ydd2aqeNTY24",
+                     passwd="rZqEe7G6rJrhXvTt",
                      db="me-corp_Game"
 
     )
