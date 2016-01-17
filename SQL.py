@@ -8,7 +8,7 @@ db = MySQLdb.connect(host="me-corp.ga",
 
     )
 cur = db.cursor()
-cur.execute("SELECT * name_list")
+cur.execute("SELECT * FROM name_list")
 for row in cur.fetchall():
     print row[0]
 db.close()
